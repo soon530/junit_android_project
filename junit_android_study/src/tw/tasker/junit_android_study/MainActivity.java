@@ -1,4 +1,4 @@
-package com.example.junit_android_study;
+package tw.tasker.junit_android_study;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

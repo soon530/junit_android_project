@@ -1,14 +1,13 @@
 /**
  * 
  */
-package com.example.junit_android_study.test;
+package tw.tasker.junit_android_study.test;
 
 import org.junit.Test;
 
+import tw.tasker.junit_android_study.MainActivity;
 import android.test.ActivityInstrumentationTestCase2;
 import android.widget.TextView;
-
-import com.example.junit_android_study.MainActivity;
 
 /**
  * @author soon530
@@ -31,7 +30,7 @@ public class MainActivityTest extends
 		super.setUp();
 		activity = getActivity();
 		helloWorld = (TextView) activity
-				.findViewById(com.example.junit_android_study.R.id.helloWorld);
+				.findViewById(tw.tasker.junit_android_study.R.id.helloWorld);
 	}
 
 	protected void tearDown() throws Exception {

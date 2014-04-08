@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.junit_android_study.MainActivity$PlaceholderFragment" >
+    tools:context="tw.tasker.junit_android_study.MainActivity$PlaceholderFragment" >
 
     <TextView
         android:id="@+id/helloWorld"
