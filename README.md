@@ -10,9 +10,14 @@ actionbar相容性lib
 
 2.junit_android_study (android project)
 用來模擬測試
+  本來就有建project了，所以用android update project -p..
+  D:\eclipse\adt-bundle-windows-x86_64\sdk\tools>
+  android update project -p D:\example\junit_android_project\junit_android_study
 
 3.junit_android_study_test (android project)
 junit學習
+  D:\eclipse\adt-bundle-windows-x86_64\sdk\tools>
+  android update test-project -m D:\example\junit_android_project\junit_android_study -p D:\example\junit_android_project\junit_android_study_test
 
 4.uiautomator_study (java project)
 android ui的單元測試，用來模擬ui的點選
