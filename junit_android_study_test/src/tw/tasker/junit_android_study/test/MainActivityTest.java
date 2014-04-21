@@ -3,8 +3,6 @@
  */
 package tw.tasker.junit_android_study.test;
 
-import org.junit.Test;
-
 import tw.tasker.junit_android_study.MainActivity;
 import android.test.ActivityInstrumentationTestCase2;
 import android.widget.TextView;
@@ -41,8 +39,7 @@ public class MainActivityTest extends
 	 * 要用junit4的寫法，記得要去 java build path/order and export裡打個勾
 	 * 不然，會有ClassNotFound的Exception出現。
 	 */
-	@Test
-	public void HelloWorld() {
+	public void testHelloWorld() {
 		final String expected = "Hello world!";
 		final String actual = helloWorld.getText().toString();
 
